@@ -1,2 +1,2 @@
-# java-nutrient-API
+# java_nutrient_API
 영양 성분 API
