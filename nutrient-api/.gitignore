@@ -26,3 +26,5 @@ mvnw.cmd
 # etc
 HELP.md
 .factorypath
+
+src/main/resources/data
