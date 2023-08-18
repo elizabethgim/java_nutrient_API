@@ -8,6 +8,5 @@ public class NutrientController {
 	@GetMapping("/index")
 	public String index() {
 		return "index";
-	}
-		
+	}		
 }
