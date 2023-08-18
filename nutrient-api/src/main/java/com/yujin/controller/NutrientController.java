@@ -1,12 +1,25 @@
 package com.yujin.controller;
 
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
+import java.util.List;
 
-@Controller
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.yujin.dto.Request;
+import com.yujin.dto.Resource;
+import com.yujin.service.NutrientService;
+
+@RestController
 public class NutrientController {
-	@GetMapping("/index")
-	public String index() {
-		return "index";
-	}		
+	private NutrientService nutrientService;
+	
+	public NutrientController(NutrientService nutrientService) {
+		this.nutrientService = nutrientService;
+	}
+	
+	@GetMapping("/all")
+	public List<Resource> show(@RequestParam Request request){
+		return nutrientService.getNutrients(request);
+	}
 }
