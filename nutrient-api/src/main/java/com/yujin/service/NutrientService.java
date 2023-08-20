@@ -12,8 +12,8 @@ import com.yujin.mapper.NutrientMapper;
 public class NutrientService {
 	private NutrientMapper nutrientDAO;
 	
-	public List<Resource> getNutrients(Request request){
-		return nutrientDAO.getNutrientList(request);
+	public List<Resource> selectByRequest(Request request){
+		return nutrientDAO.selectByRequest(request);
 	}
 	
 }
