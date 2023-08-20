@@ -11,5 +11,13 @@ import com.yujin.dto.Resource;
 @Component
 @MapperScan
 public interface NutrientMapper {
-	public List<Resource> getNutrientList(Request request);
+	public List<Resource> selectAll();
+	
+	public List<Resource> selectByRequest(Request request);
+	
+	public List<Resource> selectByFoodName(String name);
+	public List<Resource> selectByResearchYear(int year);
+	public List<Resource> selectByMakerName(String makerName);
+	public List<Resource> selectByFoodCode(String foodCode);
+	
 }
