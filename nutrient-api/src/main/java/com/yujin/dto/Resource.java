@@ -2,7 +2,7 @@ package com.yujin.dto;
 
 public class Resource {
 	private int id;
-	private int food_cd;
+	private String food_cd;
 	private String group_name;
 	private String food_name;
 	private String research_year;
