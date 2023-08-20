@@ -18,5 +18,6 @@ public class Resource {
 	private double cholesterol;
 	private double saturated_fatty_acids;
 	private double trans_fat;
+	private String origin;
 	
 }
