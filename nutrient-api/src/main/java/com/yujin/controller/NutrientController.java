@@ -18,7 +18,7 @@ public class NutrientController {
 		this.nutrientService = nutrientService;
 	}
 	
-	@GetMapping("/all")
+	@GetMapping("/nutrients")
 	public List<Resource> show(@RequestParam Request request){
 		return nutrientService.getNutrients(request);
 	}
