@@ -2,13 +2,13 @@ package com.yujin.dto;
 
 public class Resource {
 	private int id;
-	private String food_cd;
-	private String group_name;
-	private String food_name;
-	private String research_year;
-	private String maker_name;
-	private String ref_name;
-	private int serving_size;
+	private String foodCd;
+	private String groupName;
+	private String foodName;
+	private String researchYear;
+	private String makerName;
+	private String refName;
+	private int servingSize;
 	private double calorie;
 	private double carbohydrate;
 	private double protein;
@@ -16,8 +16,8 @@ public class Resource {
 	private double sugar;
 	private double salt;
 	private double cholesterol;
-	private double saturated_fatty_acids;
-	private double trans_fat;
+	private double saturatedFattyAcids;
+	private double transFat;
 	private String origin;
 	
 }
