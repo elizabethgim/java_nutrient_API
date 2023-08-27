@@ -7,12 +7,11 @@ public class Resource {
 	private String foodName;
 	private String researchYear;
 	private String makerName;
-	private String refName;
 	private int servingSize;
 	private double calorie;
 	private double carbohydrate;
 	private double protein;
-	private double province;
+	private double fat;
 	private double sugar;
 	private double salt;
 	private double cholesterol;
