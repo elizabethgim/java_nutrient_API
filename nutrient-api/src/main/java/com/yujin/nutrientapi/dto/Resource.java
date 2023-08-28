@@ -1,5 +1,10 @@
-package com.yujin.dto;
+package com.yujin.nutrientapi.dto;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Setter
+@Getter
 public class Resource {
 	private int id;
 	private String foodCd;
@@ -18,5 +23,6 @@ public class Resource {
 	private double saturatedFattyAcids;
 	private double transFat;
 	private String origin;
+	
 	
 }
